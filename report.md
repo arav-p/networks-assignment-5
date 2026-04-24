@@ -1,6 +1,6 @@
 # CS 536 — Assignment 5: Collective Communication
 
-**Author:** Arav Popli
+**Author:** Arav Popli Pranay Nandkeolyar
 **Date:** 2026-04-23
 
 ---
