@@ -1,0 +1,66 @@
+[size-sweep] world_size=4, sizes=[1024, 4096, 16384, 65536, 262144, 1048576, 4194304, 16777216, 67108864]
+  binary_tree                1024B     0.151 ms
+  binary_tree                4096B     0.136 ms
+  binary_tree               16384B     0.161 ms
+  binary_tree               65536B     0.198 ms
+  binary_tree              262144B     0.358 ms
+  binary_tree             1048576B     0.939 ms
+  binary_tree             4194304B     3.464 ms
+  binary_tree            16777216B    19.008 ms
+  binary_tree            67108864B    87.063 ms
+  binomial_tree              1024B     0.154 ms
+  binomial_tree              4096B     0.161 ms
+  binomial_tree             16384B     0.168 ms
+  binomial_tree             65536B     0.174 ms
+  binomial_tree            262144B     0.359 ms
+  binomial_tree           1048576B     1.055 ms
+  binomial_tree           4194304B     3.463 ms
+  binomial_tree          16777216B    19.085 ms
+  binomial_tree          67108864B    86.997 ms
+  recursive_doubling         1024B     0.279 ms
+  recursive_doubling         4096B     0.249 ms
+  recursive_doubling        16384B     0.302 ms
+  recursive_doubling        65536B     0.331 ms
+  recursive_doubling       262144B     0.501 ms
+  recursive_doubling      1048576B     1.385 ms
+  recursive_doubling      4194304B     3.986 ms
+  recursive_doubling     16777216B    18.411 ms
+  recursive_doubling     67108864B    95.954 ms
+  ring                       1024B     0.965 ms
+  ring                       4096B     0.766 ms
+  ring                      16384B     0.810 ms
+  ring                      65536B     0.919 ms
+  ring                     262144B     1.250 ms
+  ring                    1048576B     1.396 ms
+  ring                    4194304B     3.820 ms
+  ring                   16777216B    13.451 ms
+  ring                   67108864B    78.256 ms
+  swing                      1024B     0.317 ms
+  swing                      4096B     0.249 ms
+  swing                     16384B     0.260 ms
+  swing                     65536B     0.333 ms
+  swing                    262144B     0.502 ms
+  swing                   1048576B     1.506 ms
+  swing                   4194304B     3.957 ms
+  swing                  16777216B    18.395 ms
+  swing                  67108864B    94.222 ms
+[rank-sweep] world_size=2, size=4194304B
+  binary_tree          P=2       1.409 ms
+  binomial_tree        P=2       1.406 ms
+  recursive_doubling   P=2       2.967 ms
+  ring                 P=2       3.008 ms
+  swing                P=2       1.656 ms
+[rank-sweep] world_size=4, size=4194304B
+  binary_tree          P=4       3.766 ms
+  binomial_tree        P=4       3.639 ms
+  recursive_doubling   P=4       4.378 ms
+  ring                 P=4       9.164 ms
+  swing                P=4       4.018 ms
+[rank-sweep] world_size=8, size=4194304B
+  binary_tree          P=8       8.303 ms
+  binomial_tree        P=8       8.514 ms
+  recursive_doubling   P=8       8.800 ms
+  ring                 P=8      10.074 ms
+  swing                P=8       9.518 ms
+
+Wrote results.json
